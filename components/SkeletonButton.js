@@ -4,7 +4,7 @@ import { Card, Placeholder } from 'react-bootstrap'
 const SkeletonButton = () => {
     return (
 
-        <Card className='m-1' style={{ width: "100%" }}>
+        <Card style={{ width: "25%" }} className="m-3">
             <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" />
             <Card.Body>
                 <Placeholder as={Card.Title} animation="glow">

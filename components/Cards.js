@@ -3,11 +3,9 @@ import React from "react"
 import { Card } from "react-bootstrap"
 import ButtonCard from "./ButtonCard"
 
-
-
 const Cards = ({ product }) => {
     return (
-        <Card style={{ width: "18rem" }} className="m-1">
+        <Card style={{ width: "25%" }} className="m-3">
             <Card.Img
                 variant='top'
                 src={product.images}
